@@ -3,6 +3,7 @@ package com.example.lab_8
 class Wizard(val name: String, var mana: Int, var spellPower: Int) {
     fun castSpell(spell: String): Int {
         when (spell) {
+            // testing CI
             "Explosion" -> {
                 if (mana >= 10) {
                     mana -= 10
